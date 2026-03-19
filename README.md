@@ -8,6 +8,22 @@ Traditional Black-Scholes assumes constant volatility, which is unrealistic in p
 
 ---
 
+## Visualizations
+
+### Market vs Model Price
+![Market vs Model](figures/price_vs_model.png)
+
+### Implied Volatility Surface
+![IV Surface](figures/ml_surface.png)
+
+### Market Volatility Surface
+![Market Surface](figures/market_surface.png)
+
+### Error Distribution
+![Error Distribution](figures/error.png)
+
+---
+
 ## Methodology
 
 ### Data Processing
