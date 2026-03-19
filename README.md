@@ -92,7 +92,7 @@ Delta was computed using the Black-Scholes formulation with ML-predicted volatil
 - Demonstrates stable and realistic behavior
 
 - ### Delta Visualization
-![Delta Plot](figures/delta_plot.png)
+![Delta Plot](figures/delta.png)
 
 ---
 
