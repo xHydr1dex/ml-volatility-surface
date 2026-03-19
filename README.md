@@ -8,19 +8,10 @@ Traditional Black-Scholes assumes constant volatility, which is unrealistic in p
 
 ---
 
-## Visualizations
+## Market vs Black Scholes (ML Implied Volatility)
 
 ### Market vs Model Price
 ![Market vs Model](figures/price_vs_model.png)
-
-### Implied Volatility Surface
-![IV Surface](figures/ml_surface.png)
-
-### Market Volatility Surface
-![Market Surface](figures/market_surface.png)
-
-### Error Distribution
-![Error Distribution](figures/error.png)
 
 ---
 
@@ -53,6 +44,12 @@ Several models were evaluated:
 
 Hyperparameter tuning was applied to tree-based models to improve performance.
 
+### Implied Volatility Surface
+![IV Surface](figures/ml_surface.png)
+
+### Market Volatility Surface
+![Market Surface](figures/market_surface.png)
+
 ---
 
 ### Ensemble Learning
@@ -82,6 +79,9 @@ The final ensemble model achieved:
 
 The model captures the volatility smile effectively and produces option prices closely aligned with market data.
 
+### Error Distribution
+![Error Distribution](figures/error.png)
+
 ---
 
 ## Greeks
@@ -90,6 +90,9 @@ Delta was computed using the Black-Scholes formulation with ML-predicted volatil
 - Remains within theoretical bounds (0 to 1)
 - Shows smooth variation across moneyness
 - Demonstrates stable and realistic behavior
+
+- ### Delta Visualization
+![Delta Plot](figures/delta_plot.png)
 
 ---
 
